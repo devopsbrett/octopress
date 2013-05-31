@@ -1,0 +1,12 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too 
+
+img.social_icon {
+	border: 0 !important;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+
+aside.sidebar img.social_icon {
+	margin-right: 10px;
+}
