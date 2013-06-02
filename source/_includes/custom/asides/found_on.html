@@ -15,7 +15,7 @@
 <a href="http://twitter.com/{{site.twitter_user}}" rel="tooltip" title="Twitter"><img class="social_icon" title="Twitter" alt="Twitter icon" src="{{ root_url }}/images/icontexto-inside-twitter.png"></a>
 {% endif %}
 
-{% if site.googleplus_user %}
+{% if site.googleplus_user and site.googleplus_hidden == false %}
 <a href="https://plus.google.com/{{site.googleplus_user}}?rel=author" rel="tooltip" title="Google Plus"><img class="social_icon" title="Google Plus" alt="Google Plus icon" src="{{ root_url }}/images/glyphicons_386_google_plus.png"></a>
 {% endif %}
 
